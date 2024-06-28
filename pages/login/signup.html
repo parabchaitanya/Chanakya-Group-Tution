@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SIGN UP</title>
+    <link href="../../css&java/css/bootstrap5.3.3.css" rel="stylesheet">
+    <link href="signup.css" rel="stylesheet"></link>
+
+    <link href="../../css&java/css/bootstrap4.5.2.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css&java/css/maincss/styles.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+    <a class="" href="#">
+        <img src="../../images/other/image.png" width="auto" height="80px" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="../Home/index.html">Home</a> <!--use active for per page so that it will show the current page-->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../about/about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../course/course.html">Courses</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Study Material
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item " href="../free study material/studymaterial.html">CBSE</a>
+                  <a class="dropdown-item" href="../free study material/NCERT.html">NCERT</a>
+                  <a class="dropdown-item" href="../free study material/State board.html">State Board</a>
+                  <a class="dropdown-item" href="../free study material/ICSE.html">ICSE</a>
+                  <a class="dropdown-item " href="../free study material/Previous year question paper.html">Previous year question paper</a>
+                  <a class="dropdown-item" href="../free study material/Important notes.html">Important questions paper</a>   
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="../free study material/Rivision.html">Rivision notes</a>
+                  <a class="dropdown-item" href="../free study material/general.html">General knowledge</a>
+              </div>
+          </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../achivement/achivement.html">Achivement</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="../contact/contact.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item " href="../testimonial/testimonal.html">Testimonial</a>
+                    <a class="dropdown-item active" href="../gallery/galery.html">Photo Gallery</a>
+                    <a class="dropdown-item " href="../our team/team.html">Faculty</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../blog/blog.html">Blog</a>   
+                    <a class="dropdown-item " href="../FAQs/faq.html">FAQs</a>
+                </div>
+            </li>
+            
+        </ul>
+    </div>
+
+    <div class="navbar-nav ml-1 ">
+      <a class="button-24 " href="../login/login.html">Log In</a>
+    </div>
+</div>
+</nav>    
+
+<!--sign up start-->    
+    <section class="h-100 gradient-form" style="background-color: #eee;">
+        <div class="container p-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-xl-7">
+              <div class="card rounded-5 text-dark">
+                <div class="row g-0">
+                  <!--<div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+                    <div class="text-white px-3 py-4 p-md-5 mx-md-4">
+                      <h4 class="mb-4"></h4>
+                      <p class="small mb-0"></p>
+                    </div>
+                  </div>-->
+                  <div class="col-lg-12">
+                    <div class="card-body p-md-5 mx-md-4">
+      
+                      <div class="text-center my-3">
+                        <img src="../../images/other/image.png"
+                          style="width: 185px;" alt="logo">
+                        
+                      </div>       
+                      
+                                  <form>
+                      
+                                    <div class="row">
+                                      <div class="col-md-6 mb-2">
+                      
+                                        <div data-mdb-input-init class="form-outline">
+                                          <input type="text" id="firstName" class="form-control form-control-lg" />
+                                          <label class="form-label" for="firstName">First Name</label>
+                                        </div>
+                      
+                                      </div>
+                                      <div class="col-md-6 mb-2">
+                      
+                                        <div data-mdb-input-init class="form-outline">
+                                          <input type="text" id="lastName" class="form-control form-control-lg" />
+                                          <label class="form-label" for="lastName">Last Name</label>
+                                        </div>
+                      
+                                      </div>
+                                    </div>
+                      
+                                    <div class="row">
+                                      <div class="col-md-6 mb-2 d-flex align-items-center">
+                      
+                                        <div data-mdb-input-init class="form-outline datepicker w-100">
+                                          <input type="text" class="form-control form-control-lg" id="birthdayDate" placeholder="DD/MM/YY"/>
+                                          <label for="birthdayDate" class="form-label"> Birth date</label>
+                                        </div>
+                      
+                                      </div>
+                                      <div class="col-md-6 mb-2">
+                      
+                                        <h6 class="mb-2">Gender: </h6>
+                      
+                                        <div class="form-check form-check-inline">
+                                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
+                                            value="option1" checked />
+                                          <label class="form-check-label" for="femaleGender">Female</label>
+                                        </div>
+                      
+                                        <div class="form-check form-check-inline">
+                                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
+                                            value="option2" />
+                                          <label class="form-check-label" for="maleGender">Male</label>
+                                        </div>
+                      
+                                        <div class="form-check form-check-inline">
+                                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="otherGender"
+                                            value="option3" />
+                                          <label class="form-check-label" for="otherGender">Other</label>
+                                        </div>
+                                        
+                      
+                                      </div>
+                                    </div>
+                      
+                                    <div class="row">
+                                      <div class="col-md-6 mb-2">
+                      
+                                        <div data-mdb-input-init class="form-outline">
+                                          <input type="email" id="emailAddress" class="form-control form-control-lg" />
+                                          <label class="form-label" for="emailAddress">Email</label>
+                                        </div>
+                      
+                                      </div>
+                                      <div class="col-md-6 mb-2 ">
+                      
+                                        <div data-mdb-input-init class="form-outline">
+                                          <input type="tel" id="phoneNumber"  maxlength="10" class="form-control form-control-lg"/>
+                                          <label class="form-label" for="phoneNumber">Phone Number</label>
+                                        </div>
+                      
+                                      </div>
+                                    </div>
+                      
+                                    <div class="row">
+                                      <div class="col-12">
+                                        <select class="select form-control-lg">
+                                          <option value="1">Choose option</option>
+                                          <option value="2">Standard 5</option>
+                                          <option value="3">Standard 6</option>
+                                          <option value="4">Standard 7</option>
+                                          <option value="5">Standard 8</option>
+                                          <option value="6">Standard 9</option>
+                                          <option value="7">Standard 10</option>
+                                          <option value="7">Standard 11</option>
+                                          <option value="7">Standard 12</option>
+                                        </select>
+                                        <!--<label class="form-label select-label">Choose option</label>-->
+                                      </div>
+                                    </div>
+                      
+                                    <div class="text-center pt-4 mb-2">
+                                      <button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="submit">Sign Up
+                                      </button>
+                                    </div>
+                                  </form>
+    
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+      
+                    </div>
+                  </div>
+    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+<!--sign up end-->      
+
+<footer>
+  <div class="footer-container">
+      <div class="footer-section">
+          <h3>About Us</h3>
+          <p>Providing quality education resources for students and educators worldwide.</p>
+      </div>
+      <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+              <li><a href="../Home/index.html">Home</a></li>
+              <li><a href="../about/about.html">About</a></li>
+              <li><a href="../course/course.html">Courses</a></li>
+              <li><a href="../contact/contact.html">Contact</a></li>
+          </ul>
+      </div>
+      <div class="footer-section">
+          <h3>Contact Us</h3>
+          <div class="social-links">
+          <p>Email us: <a href="mailto:parabc955@gmail.com" target="_blank"> Chanakyagrp@tution.com</a></p>
+
+          <p>Call Us: <a href="tel:+919321007185" target="_blank"> +91 9321007185</a></p>
+        </div>
+      </div>
+      <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-links">
+              <a href="https://www.facebook.com" target="_blank">Facebook</a>
+              <a href="https://www.twitter.com" target="_blank">Twitter</a>
+              <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+          </div>
+      </div>
+  </div>
+  
+</footer>
+
+    <script src="../../css&java/java/bootstrap5.3.3.js"></script>
+    <script src="js/signup.js"></script>
+
+    <script src="../../css&java/java/jquery3.5.1.js"></script>
+    <script src="../../css&java/java/popper2.5.4.js"></script>
+    <script src="../../css&java/java/bootstrap4.5.2.js"></script>
+    <script src="../../css&java/java/mainjava/scripts.js"></script>
+  </body>
+</html>

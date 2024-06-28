@@ -1,0 +1,42 @@
+.home-testimonial{background-color:#f34343;
+    height: 130vh}
+
+.home-testimonial-bottom{background-color: #f6fafe;
+    /*transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;*/
+    margin-top: 20px;
+    margin-bottom: 0px;
+    position: relative;
+    height: 700px;top: 190px}
+.home-testimonial h3{color: var(--orange);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase}
+.home-testimonial h2{color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 700}
+.testimonial-inner{position: relative;
+    top: -174px}
+.testimonial-pos{position: relative;
+    top: 24px}
+.testimonial-inner .tour-desc{border-radius: 5px;
+    padding: 40px}
+.color-grey-3{font-family: "Montserrat", Sans-serif;
+    font-size: 14px;color:#022a40
+}
+.testimonial-inner img.tm-people{width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    max-width: none}
+.link-name{font-family:"montserrat", sans-serif;
+    font-size: 500;
+    color: #022a40
+}
+.link-position{font-family: "Montserrat", Sans-serif;
+    font-size: 12px;color: #022a40}
+
+.tour-item  {  background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}    

@@ -1,0 +1,21 @@
+.student-card {
+    transition: transform 0.3s;
+}
+.student-card:hover {
+    transform: scale(1.05);
+}
+.student-photo {
+    width: 100%;
+    height: auto;
+}
+.student-details {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 10%;
+}
+.student-details h5 {
+    color: #f34343;
+}
+.display-4{
+    font-family: 'Times New Roman', Times, serif;
+}
